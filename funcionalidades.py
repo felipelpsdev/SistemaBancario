@@ -3,7 +3,7 @@ import os
 def cadastrar(lista, nomeTitular, tipo, valor):
     t = len(lista)
     if t == 0:
-        codigo = 12000
+        codigo = 1
     else:
         codigo = lista[t-1][1] + 1
     conta = ([nomeTitular, codigo, tipo,valor])
